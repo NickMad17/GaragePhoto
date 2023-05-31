@@ -1,0 +1,43 @@
+.home{
+    background-image: url(../../img/bg-home.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+
+    &__box{
+        box-sizing: border-box;
+        background: #FFFFFF1A;
+        height: 100vh;
+        margin-left: 22%;
+        margin-right: 22%;
+        padding-left: 4rem;
+    }
+
+    &__title{
+        font-weight: 300;
+        font-size: 7.5rem;
+        line-height: 11.5rem;
+        padding-top: 16rem;
+    }
+
+    & p{
+        font-weight: 200;
+        font-size: 2.25rem;
+        line-height: 3.5rem;
+        margin-bottom: 2rem;
+    }
+
+    &__btn{
+        background: #A02213;
+        padding: 1.2rem;
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 2.3rem;
+        color: $textColor;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}

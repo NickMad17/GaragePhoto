@@ -1,0 +1,13 @@
+@media (max-width: 918px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media (max-width: 773px) {
+  html {
+    font-size: 6px;
+  }
+  .home__box {
+    margin: 0 0;
+  }
+}

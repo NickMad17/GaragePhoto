@@ -1,0 +1,39 @@
+.info{
+    position: relative;
+    &__title{
+        margin-top: 6rem;
+        text-align: center;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 56px;
+    }
+    
+    &__box{
+        background: rgba(8, 1, 27, 0.358);
+        border-radius: 1rem;
+        margin-top: 1.2rem;
+        margin-bottom: 5.3rem;
+        margin-left: 18rem;
+        margin-right: 18rem;
+        z-index: 200;
+
+        & p{
+            padding: 2.5rem;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            text-align: center;
+        }
+    }
+
+    &__cercle{
+        position: absolute;
+        left: 8rem;
+        top: -7rem;
+        z-index: 100;
+
+        &_new{
+            left: 35rem;
+        }
+    }
+}

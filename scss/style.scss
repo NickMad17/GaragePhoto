@@ -1,0 +1,13 @@
+// base
+@import "./base/fonts";
+@import "./base/vars";
+@import "./base/base";
+// block
+@import "./block/center";
+@import "./block/header";
+// section
+@import "./section/home";
+@import "./section/info";
+@import "./section/locat";
+// media
+@import './media/media.scss';
