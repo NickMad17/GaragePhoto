@@ -115,44 +115,11 @@ a {
   cursor: pointer;
 }
 
-.info {
-  position: relative;
-}
-.info__title {
-  margin-top: 6rem;
-  text-align: center;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 56px;
-}
-.info__box {
-  background: rgba(8, 1, 27, 0.358);
-  border-radius: 1rem;
-  margin-top: 1.2rem;
-  margin-bottom: 5.3rem;
-  margin-left: 18rem;
-  margin-right: 18rem;
-  z-index: 200;
-}
-.info__box p {
-  padding: 2.5rem;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
-  text-align: center;
-}
-.info__cercle {
-  position: absolute;
-  left: 8rem;
-  top: -7rem;
-  z-index: 100;
-}
-.info__cercle_new {
-  left: 35rem;
-}
-
 .locate {
   background-image: url(.././img/bg-location.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 93rem;
 }
 
