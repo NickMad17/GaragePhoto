@@ -76,7 +76,7 @@ a {
 }
 
 .home {
-  background-image: url(../../img/bg-home.jpg);
+  background-image: url(.././img/bg-home.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -152,7 +152,7 @@ a {
 }
 
 .locate {
-  background-image: url(../../img/bg-location.jpg);
+  background-image: url(.././img/bg-location.jpg);
   min-height: 93rem;
 }
 
