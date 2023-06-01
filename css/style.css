@@ -25,6 +25,10 @@ a {
   color: white;
 }
 
+.center {
+  padding: 0 10%;
+}
+
 .header {
   background: #272727;
   position: fixed;
@@ -83,15 +87,15 @@ a {
           box-sizing: border-box;
   background: rgba(255, 255, 255, 0.1019607843);
   height: 100vh;
-  margin-left: 22%;
-  margin-right: 22%;
+  margin-left: 20%;
+  margin-right: 18%;
   padding-left: 4rem;
 }
 .home__title {
   font-weight: 300;
   font-size: 7.5rem;
   line-height: 11.5rem;
-  padding-top: 16rem;
+  padding-top: 10rem;
 }
 .home p {
   font-weight: 200;
@@ -154,6 +158,27 @@ a {
 
 @media (max-width: 918px) {
   html {
-    font-size: 14px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 773px) {
+  .home__box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+}
+@media (max-width: 500px) {
+  .home__box p {
+    text-align: center;
   }
 }
