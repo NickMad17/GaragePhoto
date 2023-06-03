@@ -1,0 +1,42 @@
+.locate-box{
+    display: flex;
+    align-items: center;
+    gap: 3.125rem;
+    padding-bottom: 4.8125rem;
+
+    &_reverse{
+        flex-direction: row-reverse;
+    }
+}
+
+.product{
+    &__left {
+        height: 21.875rem;
+        & img{
+        height: 100%;
+        }
+    }
+
+    &__right{
+        width: 27.5rem;
+
+        & h3{
+            font-weight: 400;
+            font-size: 2.25rem;
+            line-height: 3.5625rem;
+            padding-bottom: 0.625rem;
+        }
+
+    }
+
+    &__text{
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        & p{
+            font-weight: 400;
+            font-size: 1.125rem;
+            line-height: 1.75rem;
+        }
+    }
+}
